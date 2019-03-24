@@ -6,3 +6,9 @@ if country == 'taiwan':
 		print('you can drive!')
 	else:
 		print('you are too young to drive.')
+elif country == 'america':
+	if float(age) >= 16:
+		print('you can drive!')
+	else:
+		print('you cannot drive!')
+
